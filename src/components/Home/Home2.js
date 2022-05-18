@@ -24,7 +24,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++, Javascript and Python. </b>
+                <b className="purple"> Javascript , HTML , CSS , PYTHON  </b>
               </i>
               <br />
               <br />
@@ -38,6 +38,13 @@ function Home2() {
               </i>
               <br />
               <br />
+              <i>I also manage the <b className="purple"> GIT</b> version control system </i>
+              <br /> 
+
+              <br />
+              <i>I also have knowledge in databases like  <b className="purple"> MYSQL , FIREBASE</b> </i>
+              <br />
+              <br />
               Whenever possible, I also apply my passion for developing products
               with <b className="purple">Node.js</b> and
               <i>
@@ -48,7 +55,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> React.js </b>
               </i>
             </p>
           </Col>
