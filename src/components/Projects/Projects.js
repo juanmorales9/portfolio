@@ -4,8 +4,9 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
+import heroes from "././../../Assets/Projects/heroes.png";
 
-import bitsOfCode from "../../Assets/Projects/blog.png";
+
 
 function Projects() {
   return (
@@ -31,11 +32,11 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={heroes}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              link="https://github.com/juanimorales9/"
+              title="Heroes App"
+              description="In this case we present a Page of Heroes We have a frontend that connects with an API and brings the requested collections"
+              link="https://heroesapp-omega.vercel.app/marvel"
             />
           </Col>
 
