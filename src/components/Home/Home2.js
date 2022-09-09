@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
+import myImg2 from "../../Assets/avatar.png"
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -16,61 +17,57 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              UNA  <span className="purple"> INTRODUCCIÓN </span> DE MI 
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              
               <br />
-              <br />I am fluent in classics like
+              <br />Manejo lenguajes como 
               <i>
-                <b className="purple"> Javascript , HTML , CSS , PYTHON  </b>
+                <b className="purple"> Javascript , HTML , CSS , JAVA  </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
+              Mi campo de interés es la creación de nuevas tecnologías y productos web y              <i>
+                <b className="purple">también en áreas relacionadas con el aprendizaje profundo y el procesamiento del lenguaje natural. </b> 
+                {" "}
                 <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
+                  
                 </b>
               </i>
               <br />
               <br />
-              <i>I also manage the <b className="purple"> GIT</b> version control system </i>
+              <i>También manejo el sistema    <b className="purple"> GIT</b> de control de versiones </i>
               <br /> 
 
               <br />
-              <i>I also have knowledge in databases like  <b className="purple"> MYSQL , FIREBASE</b> </i>
+              <i>También tengo conocimientos en bases de datos como   <b className="purple"> MYSQL , FIREBASE</b> </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              Me gustaria formar parte de una empresa que me de la oportunidad de trabajar como 
+                <b className="purple"> Back End</b> y
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  aumentar mi experiencia laboral
                 </b>
               </i>
-              &nbsp; like
+              &nbsp; en
               <i>
-                <b className="purple"> React.js </b>
+                <b className="purple"> Java con Spring Boot  </b>
               </i>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={myImg2} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
-            <p>
-              Feel free to <span className="purple">connect </span>with me
-            </p>
+            <h1>ENCUENTRAME EN </h1>
+           
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
